@@ -1,8 +1,8 @@
-var webpack = require("webpack");
+jsvar webpack = require("webpack");
 
 module.exports = {
   entry: {
-    form: ['babel-polyfill', './src/demo/demo.jsx']
+    form: ['babel-polyfill', './src/index.js']
   },
   // node: {
   //     setImmediate: true
